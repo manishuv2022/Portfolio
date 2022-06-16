@@ -1,0 +1,11 @@
+.list-item-highlight-text-red {
+    font-weight: bold;
+    display: inline;
+    color: red;
+}
+
+.list-item-highlight-text-green {
+    font-weight: bold;
+    display: inline;
+    color: green;
+}

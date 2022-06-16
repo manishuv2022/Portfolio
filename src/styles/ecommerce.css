@@ -1,0 +1,124 @@
+.root {
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 68px;
+    align-items: center;
+    color: grey;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-bar-container {
+    display: flex;
+    padding: 2px 4px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.title-logo {
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.search-container {
+    border: 1px solid;
+    border-radius: 24px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.search-selector-container {
+    display: flex;
+    padding: 0px 16px;
+}
+
+.vertical-devider {
+    border-left: 1px solid;
+    height: 100%;
+}
+
+.search-input-container {
+    display: flex;
+    margin: 0px 8px;
+}
+
+.search-input {
+    border: none;
+    width: 220px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.page-info-area {
+    display: flex;
+    align-items: center;
+    height: 160px;
+    justify-content: center;
+    background-color: lightgrey;
+    margin-top: 16px;
+}
+
+.page-info-text-container {
+    text-align: center;
+}
+
+.page-title {
+    font-size: 32px;
+    margin: 16px;
+}
+
+.page-breadcrumb {
+    font-size: 18px;
+}
+
+.product-details-container{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1vw;
+    width: 70%;
+    margin: auto;
+}
+
+.product-details-grid-item{
+    padding: 32px;
+}
+.product-description-image-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+    grid-gap: 1vw;
+}
+.product-description-small-image-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100%;
+    grid-gap: 1vw;
+}
+.product-description-small-image{
+    background-color: gray;
+    border-radius: 8px;
+}
+
+.product-description-large-image-container{
+    display: flex;
+}
+.product-description-large-image{
+    background-color: gray;
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    border-radius: 8px;
+}

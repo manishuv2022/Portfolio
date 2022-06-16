@@ -1,0 +1,31 @@
+.app-root {
+    min-height: 100vh;
+}
+
+.app-header {
+    padding: 12px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-header-body {
+    display: flex
+}
+
+.app-main {
+    margin: auto;
+    margin-top: 36px;
+    padding: 16px;
+    width: 500px;
+    height: 100%;
+    border-radius: 5px;
+    text-align: center;
+    background: white;
+    box-shadow: 1px 2px 4px white
+}
+
+
